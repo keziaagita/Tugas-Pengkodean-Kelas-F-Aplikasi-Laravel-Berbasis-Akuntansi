@@ -78,8 +78,8 @@
       @foreach($data as $item)
       <tr>
           <td>{{ $loop->iteration }}</td>
-          <td>{{ $item->barang->name }}</td>
-          <td>{{ $item->barang->harga }}</td>
+          <td>{{ $item->barang}}</td>
+          <td>{{ $item->barang }}</td>
           <td>{{ $item->qty }}</td>
           <td>{{ $item->total }}</td>
           <td>
